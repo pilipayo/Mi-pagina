@@ -48,7 +48,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: sticky;
 }
 
 .menu nav ul li a{
@@ -324,9 +324,6 @@ footer{
   text-decoration: none;
 }
 
-@media screen {
-  
-}
 
 /* no funciona bien  */
 @media screen and (max-width: 800px) {
